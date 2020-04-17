@@ -1,6 +1,6 @@
-# Quickly - a tool to build quick entities directly from your database
+# Quickly
 
-['Quick'](https://github.com/elpete/quick) is a popular CFML ORM.
+### A tool to build [Quick](https://github.com/elpete/quick) entities directly from your database
 
 ## Installation
 Install quickly using commandbox:
