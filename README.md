@@ -13,7 +13,7 @@ install commandbox-quickly
 
 This command assumes that you are adhering to these Quick conventions:
 
-* You have database tables that named as a plural of the entities you wish to create. (User entities =  Users table.  Gallery entities = Galleries table.)
+* You have database tables that are named using the plural form of the entities you wish to create. (User entities =  Users table.  Gallery entities = Galleries table.)
 * Your primary key field is named "id" on each table.
 * Quickly will add relationships if your tables have foreign keys named according to convention.  (Galleries table might have a userID, Images table might have a galleryID)
 * Quickly will currently create basic relationships only - hasMany, hasManyThrough (1 level), belongsTo, belongsToThrough (1 level).  If you have one-to-one or many to many relationships, you can use these as a guide to add/modify them.  [More info here](https://quick.ortusbooks.com/v/3.0.0/relationships/relationship-types).
