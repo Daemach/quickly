@@ -1,20 +1,22 @@
 {
-    "author":"",
-    "bugs":"",
+    "author":"Daemach",
+    "bugs":"https://github.com/Daemach/quickly",
     "changelog":"",
     "contributors":[],
     "dependencies":{},
     "description":"",
     "devDependencies":{},
-    "documentation":"",
-    "homepage":"",
+    "documentation":"https://github.com/Daemach/quickly",
+    "homepage":"https://github.com/Daemach/quickly",
     "ignore":[
         "**/.*",
         "/test/",
         "/tests/"
     ],
     "installPaths":{},
-    "instructions":"",
+    "instructions":"```json
+    install commandbox-quickly
+    ```",
     "keywords":[],
     "license":[
         {
@@ -23,12 +25,12 @@
         }
     ],
     "location":"ForgeboxStorage",
-    "name":"Quick Tools",
+    "name":"Quickly",
     "private":false,
     "projectURL":"",
     "repository":{
-        "type":"",
-        "URL":""
+        "type":"GitHub",
+        "URL":"https://github.com/Daemach/quickly"
     },
     "scripts":{},
     "shortDescription":"Tools for Quick ORM",
@@ -54,5 +56,5 @@
         "watchPaths":"**.cfc"
     },
     "type":"commandbox-modules",
-    "version":"1.0.0"
+    "version":"1.0.1"
 }

@@ -47,7 +47,7 @@ component {
             dbinfo name="arguments.tableList" type="tables" datasource=ds;
 
             arguments.tableList = arguments.tableList.filter(function(table){
-                return ( table.table_schem == "dbo" && !listFind( "cfmigrations,sysdiagrams", table.table_name ) );
+                return ( table.table_schem == "dbo" && !listFind( "cfmigrations,sysdiagrams", table.table_name ) && reMatch("s$", table.table_name).len() );
             })
         }
 		
